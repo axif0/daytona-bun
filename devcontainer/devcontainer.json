@@ -1,0 +1,20 @@
+{
+    "name": "EJS with Bun",
+    "image": "oven/bun:latest",
+    "forwardPorts": [
+      3000
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "typescript.tsdk": "/app/node_modules/typescript/lib",
+          "typescript.enablePromptUseWorkspaceTsdk": true
+        },
+        "extensions": [
+          "ms-vscode.vscode-typescript-tslint-plugin",
+          "eg2.vscode-npm-script"
+        ]
+      }
+    },
+    "postCreateCommand": "bun install"
+  }
