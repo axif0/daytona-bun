@@ -13,7 +13,7 @@ Sample Bun, HTTP server that demonstrates routing, template rendering using EJS,
    daytona create <SAMPLE_REPO_URL> 
    ```  
 3. **Install Bun**:  
-   Follow the [Bun installation guide](https://bun.sh/docs/install) to install Bun on your system.  
+   Follow the [Bun installation guide](https://bun.sh/docs/installation) to install Bun on your system.  
 4. **Install Dependencies**:  
    Run the following command to install the project dependencies:  
    ```bash  
