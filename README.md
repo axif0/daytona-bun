@@ -1,19 +1,8 @@
-# Sample Bun HTTP Server
+# Sample JavaScript/Bun
 
-This repository contains a sample Bun-based HTTP server that demonstrates routing, template rendering using EJS, and static file handling. It can be used as a template to create repositories compatible with [Daytona](https://github.com/daytonaio/daytona).
-
-Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
-
+Sample Bun, HTTP server that demonstrates routing, template rendering using EJS, and static file handling. 
 ---
 
-## 🚀 Getting Started  
-
-### Open Using Daytona  
-
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
-2. **Create the Workspace**:  
-   ```bash  
-   daytona create <SAMPLE_REPO_URL> 
 ## 🚀 Getting Started  
 
 ### Open Using Daytona  
@@ -87,4 +76,3 @@ Feel free to open issues or submit pull requests to improve this sample.
 ## 📝 License  
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
-```This updated `README.md` provides a structured overview of your project and includes all necessary details for users to get started. Let me know if you'd like further customizations!
