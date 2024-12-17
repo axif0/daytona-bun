@@ -10,7 +10,7 @@ Sample Bun, HTTP server that demonstrates routing, template rendering using EJS,
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL> 
+   daytona create https://github.com/axif0/sample-bun.git
    ```  
 3. **Install Bun**:  
    Follow the [Bun installation guide](https://bun.sh/docs/installation) to install Bun on your system.  
