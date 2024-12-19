@@ -31,8 +31,15 @@ function serveStatic(urlPath) {
 
   try {
     const fileRef = Bun.file(filePath);
+    
+    // If favicon is not found, return a default response
+    if (relativePath === 'favicon.ico') {
+      return new Response(null, { status: 204 }); // No content
+    }
+    
     return new Response(fileRef);
   } catch (error) {
+    // Handle other static file errors
     const html = renderTemplate('error', { status: 404, message: 'File Not Found' });
     return new Response(html, {
       status: 404,
